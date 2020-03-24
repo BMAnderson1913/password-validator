@@ -1,6 +1,11 @@
-const { describe, it } = require('mocha')
-const { expect } = require('chai')
-const validatePassword = require('./index')
+const {
+  describe,
+  it
+} = require('mocha')
+const {
+  expect
+} = require('chai')
+const validatePassword = require('./index2')
 
 describe('validatePassword', () => {
   it('returns true when the password meets all requirements', () => {
